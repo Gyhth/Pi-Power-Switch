@@ -9,4 +9,4 @@ while True:
     input_state = GPIO.input(18)
     if input_state == False:
         call("shutdown -h now \"Shut down by button.\"", shell=True)
-		time.sleep(0.2)
+	time.sleep(0.2)
